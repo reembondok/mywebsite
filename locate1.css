@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5;
+    font-family: 'Cairo', sans-serif;
+    background-color: #333;
+
+}
+a{
+    text-decoration: none;
+
+}
+.text-primary{
+    color: #93CB52;
+    padding-right: 3px;
+    
+}
+.text-primary .fas{
+    padding-left: 10px;
+}
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(51, 51, 51, 0.4);
+    color:#fff;
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    z-index: 1;
+}
+#nav-bar ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+}
+#nav-bar ul li a{
+    color:#fff;
+    margin:0px 4px;
+    padding: 10px;
+
+}
+#nav-bar ul li a:hover{
+    background-color: #93CB52;
+    border-radius: 5px;
+}
+#showcase{
+    background-image:url("reem.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300vh;
+    color: #fff;
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.4);
+    position: absolute;
+    top:65px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+.l-heading{
+    font-size: 50px;
+    margin-bottom: 8px;
+    line-height: 1.1;
+}
+.lead{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.btn{
+    display: inline-block;
+    color:#fff;
+    background-color: #93CB52;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border:none;
+}
+.btn:hover{
+    background:#7AB436;
+}
+#what{
+    background-color: #F4F4F4;
+    color: #333;
+    padding:1rem;
+    
+}
+.text-center{
+    text-align:center;
+    font-size: 2rem;
+}
+#what .container{
+     display: flex;
+     padding-top: 1rem;
+     align-items: center;
+
+}
+#what .container .item{
+    
+    background-color:#93CB52;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.article{
+    
+    text-align: center;
+    margin-left: 5rem;
+}
+#who{
+    display: flex;
+}
+.who-img{
+    flex: 1;
+    background-image:url("pexel.jpg");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+.who-text{
+    flex: 1;
+    color: #FFF;
+    padding: 3px;
+    line-height: 1.7;
+}
+.who-text ul{
+    list-style: none;
+    
+}
+.who-text p{
+    padding-bottom:1.5rem;
+    padding-top:1.5rem;
+}
+.who-text h3{
+    padding-bottom: 0.5rem;
+    padding-right: 25px;
+}
+.m-heading{
+    padding-right: 25px;
+    margin-bottom:0.5rem;
+    
+}
+.who-text li{
+    padding:0.5rem 0rem;
+    border-bottom: 1px dotted #444;
+}
+#clients{
+    background-color: #FFF;
+    color:#000;
+}
+#clients .items{
+    display: flex;
+
+}
+#clients .items .container img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+ 
